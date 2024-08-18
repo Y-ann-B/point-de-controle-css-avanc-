@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 0 3em;
+
+}
+
+nav .docplanner-logo{
+    width: 255px;
+    height: 33px;
+    margin-left: 2em;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+ li{
+    margin:  0 1em;
+ }
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titre h1 {
+    font-weight: 100;
+    color: #00b39b;
+    margin-bottom: 2em;
+}
+
+.col-6 p{
+    font-weight: 400;
+}
+
+.patient{
+    background-color: #00ccb1;
+}
+
+.doctor{
+    background-color: #3d83df;
+}
+
+.clinic{
+    background-color: #1b2734;
+}
